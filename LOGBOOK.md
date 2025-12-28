@@ -38,6 +38,17 @@
 * **Next Plan:** Begin Phase 1 Implementation: UI and Database setup.
 * [cite_start]**Guide Interaction:** Guide validated the technology stack (Node.js + Neon PostgreSQL) and architecture flow[cite: 430].
 
+### System Architecture Diagram
+* **mermaid
+graph LR
+    A[Frontend (HTML/CSS/JS)] -->|Uploads File| B[Backend (Node.js/Express)]
+    B -->|Stores Data| C[(PostgreSQL via Neon Console)]
+    B -->|Generates| D[QR Code]
+    D -->|Scanned By| E[Doctor Module]
+    B -->|Deploys On| F[Render Dashboard]
+    style C fill:#00bfff,stroke:#333,stroke-width:2px
+    style F fill:#7b68ee,stroke:#333,stroke-width:2px
+
 ### Week 5: Phase I of Implementation
 **Date:** 03/09/2025 - 13/09/2025
 * **Activities Completed:**
