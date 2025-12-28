@@ -39,7 +39,7 @@
 * [cite_start]**Guide Interaction:** Guide validated the technology stack (Node.js + Neon PostgreSQL) and architecture flow[cite: 430].
 
 ### System Architecture Diagram
-* **mermaid
+'''mermaid
 graph LR
     A[Frontend (HTML/CSS/JS)] -->|Uploads File| B[Backend (Node.js/Express)]
     B -->|Stores Data| C[(PostgreSQL via Neon Console)]
