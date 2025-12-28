@@ -1,4 +1,5 @@
-# PROJECT LOG BOOK
+# Log Book - Semester Project 1 (2025-26)
+This is a progress log detailing the work done on our semester project.
 
 ## Index
 
